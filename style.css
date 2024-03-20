@@ -113,3 +113,24 @@ h3{
 .provider{
     text-align: end;
 }
+
+.call-action{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px 0px;
+    color:#F9FAF8 ;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 7vw;
+    color: #F9FAF8;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
