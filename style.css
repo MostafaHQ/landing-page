@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:roboto ;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav{
+    padding: 10px 0px;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+li  a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-container{
+    padding: 60px 0px;
+    gap: 15px;
+}
+
+.logo{
+    width: 400px;
+    height: auto;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-second{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    padding:3px 25px ;
+    border-radius: 7px;
+    background-color:  #3882f6;
+    color: #F9FAF8;
+    margin-top: 3px;
+}
+
+.info-container{
+    padding-bottom: 50px;
+}
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 25px;
+}
+
+.topics{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info{
+    width: 130px;
+    height: 100px;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    width: 70vw;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.provider{
+    text-align: end;
+}
